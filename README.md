@@ -66,11 +66,11 @@ The dataset used in this project was originally provided by the authors of [“M
   Samples pixel intensities $({x_1, x_2, \dots, x_N})$ along user-defined or automatically derived line segments.  
   The standard deviation $(\sigma)$ is computed as follows:
 
-  $$
+  $
   \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} \bigl(x_i - \mu\bigr)^2}, 
   \quad 
   \mu = \frac{1}{N}\sum_{i=1}^{N} x_i
-  $$
+  $
 
 - **Visualization & Annotation**  
   Generates annotated images and an output video highlighting detected lines, corners, and the computed intensity metrics.  
